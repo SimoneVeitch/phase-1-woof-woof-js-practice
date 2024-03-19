@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-#dog-bar span {
+.dog-button {
   height: 80%;
   width: 8vw;
   display: flex;
@@ -30,6 +30,7 @@
   align-items: center;
   border-radius: 2em;
   border: 1px solid blue;
+  background-color: transparent;
 }
 
 #dog-summary-container {
@@ -37,13 +38,13 @@
   text-align: center;
 }
 
-#dog-info {
+.dog-info {
   display: flex;
   flex-flow: column;
   align-items: center;
 }
 
-#dog-info img {
+.dog-info img {
   max-width: 75vw;
   max-height: 25vw;
 }
